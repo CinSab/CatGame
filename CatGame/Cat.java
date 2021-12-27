@@ -79,8 +79,8 @@ public class Cat{
   }
 
 //Metodo Datos del Cat();
-
-  public String datosCat(){
+@Override
+  public String toString(){
     return "Soy " + getName() + ", me quedan " + getEnergia() + " unidades de Energia.";
   }
 }
