@@ -24,7 +24,7 @@ public class CatGame{
         System.out.println("Ingrese la cantidad de unidades");
         System.out.println(gato.comer(Integer.parseInt(in.nextLine())) + "\n");
       } else if ( operacion == 4) {
-        System.out.println(gato.datosCat() + "\n" + gato.obtenerSalto() + "\n");
+        System.out.println(gato.toString() + "\n" + gato.obtenerSalto() + "\n");
       }
     }
 
